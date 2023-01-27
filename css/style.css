@@ -120,7 +120,7 @@ body {
     height: 1129px;
     padding-top: 128px;
     padding-bottom: 271px;
-    background: url(..//img/buildings__white.png) center bottom repeat-x,
+    background: url(..//img/buildings__white.png) center 101% repeat-x,
                 #1d1d1d;
     background-size: contain;
 
@@ -160,4 +160,72 @@ body {
     font-weight: 300;
     letter-spacing: 0.02em;
     color: #b7b7b7;
+}
+
+.team {
+    height: 745px;
+}
+.block_head {
+    text-align: center;
+}
+.block_title {
+    font-family: "HelveticaNeueLTProLt", Arial, sans-serif;
+    font-size: 34px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+    padding-top: 138px;
+    margin-bottom: 13px;
+}
+.block_text {
+    font-family: "Merriweather-LightItalic", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+    margin: 0;
+}
+.team_inner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 127px;
+
+}
+.team_item {
+    text-align: center;
+}
+.team_item-img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 29px;
+}
+.team_item-title {
+    font-family: "HelveticaNeueLTProLt", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #464646;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    margin-bottom: 7px;
+}
+.team_item-text {
+    font-family: "HelveticaNeueLTProLt", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #b3b3b3;
+    margin: 0;
+    margin-bottom: 21px;
+}
+.team_icon-box {
+    color: #e4e4e4;
+    transform: 0.2s;
+}
+.team_icon-box a:hover {
+    color: #b1a5a5;
 }
